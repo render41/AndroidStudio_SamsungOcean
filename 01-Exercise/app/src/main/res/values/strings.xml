@@ -5,4 +5,5 @@
     <string name="result">Result</string>
     <string name="result_text">Result Text</string>
     <string name="type_your_name">Type your Name...</string>
+    <string name="return_layout">Return Layout</string>
 </resources>
