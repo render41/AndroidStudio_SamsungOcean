@@ -23,7 +23,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun buttonClick(view: View) {
-        resultText.text = textInput.text
-        println(textInput.text)
+        if (textInput.text.isEmpty()) {
+            textInput.error = "Your name isn't typed"
+        } else {
+            resultText.text = textInput.text
+        }
     }
 }
